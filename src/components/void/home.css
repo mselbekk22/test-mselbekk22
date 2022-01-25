@@ -1,0 +1,25 @@
+ article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 4em;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1240px;
+  align-items: baseline;
+}
+
+.title {
+  position: sticky;
+  top: 2rem;
+  text-align: center;
+  background-color: rgb(75, 75, 75);
+}
+
+.content {
+  min-height:2000px;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+
+

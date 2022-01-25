@@ -1,0 +1,148 @@
+#void {
+    width: 100vw;
+    min-height: 100vh;
+    max-height: 100vh;
+    background-color: #000;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-start; */
+    justify-content: center;
+    border: 10px solid #5E03C6;
+    padding: 2rem;
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+  overflow: hidden;
+}
+
+#void img {
+    width: 350px;
+    text-align: center;
+    margin-bottom: 6rem;
+    animation: App-logo-spin 10s linear;
+}
+
+#void h2 {
+    font-size: 1.7rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    animation: FadeIn 3s linear;
+    animation-fill-mode: both;
+    margin-bottom: 4rem;
+}
+
+
+#void .timer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+    grid-gap: 1rem;
+}
+
+#void .timer p {
+  font-size: 1.5rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+#void .timer p small {
+  font-size: .8rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#void .space {
+    background: linear-gradient(51.33deg, #5E03C6 39.03%, #3F33D5 100.2%);
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    #void img {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+
+  @keyframes FadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+  
+
+@media only screen and (max-width: 700px) {
+    #void img {
+        width: 200px;
+        text-align: center;
+        margin-bottom: 4rem;
+    }
+
+
+    #void h2 {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    #void .space {
+      padding: 1rem;
+  }
+
+  #void .timer {
+    /* grid-template-columns: 1fr 1fr; */
+  }
+
+  #void .timer p {
+    font-size: 1rem;
+  }
+  
+  #void .timer p small {
+    font-size: .4rem;
+  }
+
+  }
+
+  @media only screen and (max-width: 360px) {
+
+    #void {
+      padding: 1rem;
+    }
+
+  }
+
+
+
